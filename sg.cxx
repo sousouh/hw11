@@ -39,7 +39,7 @@ int main(){
 
 	cmplx* psi0 = new cmplx[Nx];
 	cmplx* psi1 = new cmplx[Nx];
-	cmplx* h = new cmplx[Nx];
+	cmplx* h;
 
 	init(psi0, alpha, lambda, dx, dt, Nx, xmin);
 
